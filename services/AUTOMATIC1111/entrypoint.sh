@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt install libglu1-mesa-dev -y
+
 set -Eeuo pipefail
 
 # TODO: move all mkdir -p ?
